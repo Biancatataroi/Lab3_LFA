@@ -1,0 +1,28 @@
+from enum import Enum, auto
+
+
+class TokenType(Enum):
+    LET = auto()
+    PRINT = auto()
+    SIN = auto()
+    COS = auto()
+    IDENTIFIER = auto()
+    INTEGER = auto()
+    FLOAT = auto()
+    ASSIGN = auto()
+    PLUS = auto()
+    MINUS = auto()
+    STAR = auto()
+    SLASH = auto()
+    POWER = auto()
+    LPAREN = auto()
+    RPAREN = auto()
+    COMMA = auto()
+    SEMICOLON = auto()
+    GREATER = auto()
+    GREATER_EQUAL = auto()
+    LESS = auto()
+    LESS_EQUAL = auto()
+    EQUAL_EQUAL = auto()
+    BANG_EQUAL = auto()
+    EOF = auto()
